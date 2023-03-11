@@ -6,9 +6,5 @@ FactoryBot.define do
     name { Faker::Name.name }
     password { 'password' }
     password_confirmation { 'password' }
-
-    trait :woman_user do
-      gender { :woman }
-    end
   end
 end
